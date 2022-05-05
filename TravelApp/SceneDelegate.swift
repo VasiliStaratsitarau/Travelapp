@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  TravelApp
 //
-//  Created by Egor on 03/08/2020.
-//  Copyright © 2020 Egor. All rights reserved.
+//  Created by Vasili on 03/08/2020.
+//  Copyright © 2020 Vasili. All rights reserved.
 //
 
 import UIKit

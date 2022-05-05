@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="drI-jy-1in">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="drI-jy-1in">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -651,6 +651,7 @@
                                     <constraint firstAttribute="trailing" secondItem="DDN-d6-WWu" secondAttribute="trailing" constant="24" id="3Kp-rR-nUi"/>
                                     <constraint firstItem="kl1-Xx-Cfo" firstAttribute="top" secondItem="TY1-m6-AQY" secondAttribute="top" id="4dG-Ph-5D1"/>
                                     <constraint firstItem="ow5-YO-k73" firstAttribute="leading" secondItem="TY1-m6-AQY" secondAttribute="leading" id="EBK-nG-Lba"/>
+                                    <constraint firstItem="DDN-d6-WWu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ow5-YO-k73" secondAttribute="trailing" constant="8" symbolic="YES" id="EWT-jp-tRl"/>
                                     <constraint firstItem="kl1-Xx-Cfo" firstAttribute="leading" secondItem="TY1-m6-AQY" secondAttribute="leading" id="JLb-PV-sOQ"/>
                                     <constraint firstItem="oOh-8M-sgT" firstAttribute="leading" secondItem="TY1-m6-AQY" secondAttribute="leading" id="L5M-e0-5FZ"/>
                                     <constraint firstAttribute="trailing" secondItem="iyc-yW-ppb" secondAttribute="trailing" constant="24" id="OFQ-TL-YSD"/>
@@ -782,6 +783,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="2wG-RC-zzr"/>
                                     <constraint firstItem="y2k-7u-cMV" firstAttribute="top" secondItem="E04-nj-0M6" secondAttribute="bottom" constant="11" id="7vs-lJ-jGX"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="E04-nj-0M6" secondAttribute="trailing" constant="20" symbolic="YES" id="IbK-Fh-0JS"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tFB-gw-PT7" secondAttribute="trailing" constant="20" symbolic="YES" id="JLs-mA-ocZ"/>
                                     <constraint firstAttribute="trailing" secondItem="y2k-7u-cMV" secondAttribute="trailing" id="Oxr-VB-jJZ"/>
                                     <constraint firstItem="E04-nj-0M6" firstAttribute="leading" secondItem="Ekj-nT-XYv" secondAttribute="leading" id="R6B-Zb-2hi"/>
                                     <constraint firstItem="E04-nj-0M6" firstAttribute="top" secondItem="tFB-gw-PT7" secondAttribute="bottom" constant="7" id="VSO-Iv-Rp1"/>
@@ -815,6 +818,7 @@
                             <constraint firstItem="Ekj-nT-XYv" firstAttribute="leading" secondItem="OJB-kQ-xxg" secondAttribute="leading" constant="24" id="TAK-EC-Ai2"/>
                             <constraint firstItem="OJB-kQ-xxg" firstAttribute="trailing" secondItem="FVk-Tu-pi2" secondAttribute="trailing" constant="24" id="UWJ-Xq-Zwm"/>
                             <constraint firstItem="FVk-Tu-pi2" firstAttribute="leading" secondItem="OJB-kQ-xxg" secondAttribute="leading" constant="24" id="hcy-4A-3lu"/>
+                            <constraint firstItem="OJB-kQ-xxg" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OIO-eq-iCm" secondAttribute="trailing" symbolic="YES" id="rs7-zO-wo1"/>
                             <constraint firstItem="OJB-kQ-xxg" firstAttribute="trailing" secondItem="Ekj-nT-XYv" secondAttribute="trailing" constant="24" id="tju-Vf-4kd"/>
                         </constraints>
                     </view>
